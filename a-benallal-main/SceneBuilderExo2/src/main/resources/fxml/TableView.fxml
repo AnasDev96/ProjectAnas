@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.TableViewApp">
+   <children>
+      <TableView fx:id="tableview" prefHeight="340.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="numerosColumn" prefWidth="75.0" text="Numéros" />
+          <TableColumn fx:id="prenomColumn" prefWidth="75.0" text="Prénom" />
+            <TableColumn fx:id="nomColumn" prefWidth="75.0" text="Nom" />
+        </columns>
+      </TableView>
+       
+      <Label layoutX="23.0" layoutY="357.0" text="ID :" />
+      <TextField fx:id="matriculeField" layoutX="50.0" layoutY="353.0" prefHeight="25.0" prefWidth="87.0" />
+      <Label layoutX="156.0" layoutY="357.0" text="Nom :" />
+      <TextField fx:id="nomField" layoutX="189.0" layoutY="353.0" prefHeight="25.0" prefWidth="111.0" />
+      <Label layoutX="327.0" layoutY="357.0" text="Prénom :" />
+      <TextField fx:id="prenomField" layoutX="375.0" layoutY="353.0" prefHeight="25.0" prefWidth="130.0" />
+      <Button fx:id="entrer" layoutX="517.0" layoutY="353.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Add" />
+   </children>
+</AnchorPane>

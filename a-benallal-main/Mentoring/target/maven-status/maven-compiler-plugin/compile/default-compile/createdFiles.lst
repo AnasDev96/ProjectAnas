@@ -1,0 +1,16 @@
+g53203\mentoring\config\ConfigManager$ConfigManagerHolder.class
+g53203\mentoring\config\Singleton$SingletonHolder.class
+g53203\mentoring\dto\StudentDto.class
+g53203\mentoring\repository\StudentRepository.class
+g53203\mentoring\file\FileManager.class
+g53203\mentoring\exception\RepositoryException.class
+g53203\mentoring\file\StudentDao$StudentDaoHolder.class
+g53203\mentoring\config\ConfigManager.class
+g53203\mentoring\repository\Repository.class
+g53203\mentoring\demo\Main.class
+g53203\mentoring\dto\Dto.class
+g53203\mentoring\file\StudentDao.class
+g53203\mentoring\file\FileManager$FileManagerHolder.class
+g53203\mentoring\app\Mentoring.class
+g53203\mentoring\config\Singleton.class
+g53203\mentoring\repository\Dao.class

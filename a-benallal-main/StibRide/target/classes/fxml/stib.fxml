@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.SearchableComboBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="787.0" prefWidth="1059.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="g53203.atl.view.ViewController">
+   <children>
+      <TableView fx:id="table" layoutX="298.0" layoutY="437.0" prefHeight="238.0" prefWidth="241.0">
+        <columns>
+          <TableColumn fx:id="columnStation" prefWidth="135.0" text="Stations" />
+          <TableColumn fx:id="columnLines" prefWidth="105.0" text="Lignes" />
+        </columns>
+      </TableView>
+      <Label layoutX="147.0" layoutY="524.0" text="Origine" textAlignment="CENTER" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <SearchableComboBox fx:id="origine" layoutX="99.0" layoutY="570.0" prefHeight="26.0" prefWidth="174.0" />
+      <Label layoutX="133.0" layoutY="612.0" text="Destination" textAlignment="CENTER" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <SearchableComboBox fx:id="destination" layoutX="99.0" layoutY="656.0" prefHeight="25.0" prefWidth="174.0" />
+      <ImageView fitHeight="103.0" fitWidth="89.0" layoutX="132.0" layoutY="421.0">
+         <image>
+            <Image url="@../images/logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="searchButton" layoutX="129.0" layoutY="701.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="89.0" text="Recherche" />
+      <ScrollPane layoutY="29.0" prefHeight="388.0" prefWidth="1059.0">
+         <content>
+            <ImageView fitHeight="416.0" fitWidth="1378.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/metro.gif" />
+               </image>
+            </ImageView>
+         </content>
+      </ScrollPane>
+      <TableView fx:id="tableFavoris" layoutX="569.0" layoutY="438.0" prefHeight="197.0" prefWidth="446.0">
+        <columns>
+          <TableColumn fx:id="columnOrigine" prefWidth="154.0" text="Origine" />
+            <TableColumn fx:id="columnDestination" prefWidth="134.0" text="Destination" />
+          <TableColumn fx:id="columnNom" prefWidth="157.0" text="Nom" />
+        </columns>
+      </TableView>
+      <TextField fx:id="textModifyFavoris" layoutX="696.0" layoutY="720.0" prefHeight="25.0" prefWidth="241.0" />
+      <Button fx:id="addFavoris" layoutX="958.0" layoutY="676.0" mnemonicParsing="false" onAction="#handleButtonActionAddFavoris" prefHeight="25.0" prefWidth="95.0" text="Ajouter" />
+      <TextField fx:id="textAddFavoris" layoutX="696.0" layoutY="676.0" prefHeight="25.0" prefWidth="241.0" />
+      <Button fx:id="modifyFavoris" layoutX="954.0" layoutY="720.0" mnemonicParsing="false" onAction="#handleButtonActionModifyFavoris" prefHeight="25.0" prefWidth="95.0" text="Modifier " />
+      <Button fx:id="removeFavoris" layoutX="736.0" layoutY="748.0" mnemonicParsing="false" onAction="#handleButtonActionDeleteFavoris" prefHeight="25.0" prefWidth="161.0" text="Supprimer votre selection" />
+      <Label fx:id="textFavoris" layoutX="769.0" layoutY="635.0" prefHeight="31.0" prefWidth="95.0" text="Favoris" underline="true">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="498.0" layoutY="672.0" prefHeight="31.0" prefWidth="211.0" text="Donner un nom à votre favoris :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="723.0" prefHeight="20.0" prefWidth="241.0" text="Modifier le nom du favoris selection : ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <MenuBar fx:id="MenuID" prefHeight="28.0" prefWidth="1059.0">
+        <menus>
+          <Menu fx:id="fileId" mnemonicParsing="false" onAction="#handleButtonActionFileClose" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu fx:id="editId" mnemonicParsing="false" onAction="#handleButtonActionEdit" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Stations en néerlandais" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

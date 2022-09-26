@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="g53203.mentoring.file.StudentDaoTest" time="0.106" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\32484\Desktop\ATLG4-2021-2022\a-benallal\Mentoring\target\test-classes;C:\Users\32484\Desktop\ATLG4-2021-2022\a-benallal\Mentoring\target\classes;C:\Users\32484\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.3.1\junit-jupiter-api-5.3.1.jar;C:\Users\32484\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\32484\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\32484\.m2\repository\org\junit\platform\junit-platform-commons\1.3.1\junit-platform-commons-1.3.1.jar;C:\Users\32484\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.3.1\junit-jupiter-params-5.3.1.jar;C:\Users\32484\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.3.1\junit-jupiter-engine-5.3.1.jar;C:\Users\32484\.m2\repository\org\junit\platform\junit-platform-engine\1.3.1\junit-platform-engine-1.3.1.jar;C:\Users\32484\.m2\repository\org\junit\platform\junit-platform-runner\1.2.0\junit-platform-runner-1.2.0.jar;C:\Users\32484\.m2\repository\org\junit\platform\junit-platform-launcher\1.2.0\junit-platform-launcher-1.2.0.jar;C:\Users\32484\.m2\repository\org\junit\platform\junit-platform-suite-api\1.2.0\junit-platform-suite-api-1.2.0.jar;C:\Users\32484\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\32484\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\32484\.m2\repository\org\mockito\mockito-core\3.2.0\mockito-core-3.2.0.jar;C:\Users\32484\.m2\repository\net\bytebuddy\byte-buddy\1.10.3\byte-buddy-1.10.3.jar;C:\Users\32484\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.3\byte-buddy-agent-1.10.3.jar;C:\Users\32484\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\32484\.m2\repository\org\mockito\mockito-junit-jupiter\2.23.0\mockito-junit-jupiter-2.23.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Brussels"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="user.country" value="BE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\32484\AppData\Local\Temp\surefire18379115216430299247\surefirebooter8020482041859376955.jar C:\Users\32484\AppData\Local\Temp\surefire18379115216430299247 2022-03-22T20-28-15_307-jvmRun1 surefire7795348380810607556tmp surefire_012966889281239512457tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="g53203.mentoring.file.StudentDaoTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\32484\Desktop\ATLG4-2021-2022\a-benallal\Mentoring\target\test-classes;C:\Users\32484\Desktop\ATLG4-2021-2022\a-benallal\Mentoring\target\classes;C:\Users\32484\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.3.1\junit-jupiter-api-5.3.1.jar;C:\Users\32484\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\32484\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\32484\.m2\repository\org\junit\platform\junit-platform-commons\1.3.1\junit-platform-commons-1.3.1.jar;C:\Users\32484\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.3.1\junit-jupiter-params-5.3.1.jar;C:\Users\32484\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.3.1\junit-jupiter-engine-5.3.1.jar;C:\Users\32484\.m2\repository\org\junit\platform\junit-platform-engine\1.3.1\junit-platform-engine-1.3.1.jar;C:\Users\32484\.m2\repository\org\junit\platform\junit-platform-runner\1.2.0\junit-platform-runner-1.2.0.jar;C:\Users\32484\.m2\repository\org\junit\platform\junit-platform-launcher\1.2.0\junit-platform-launcher-1.2.0.jar;C:\Users\32484\.m2\repository\org\junit\platform\junit-platform-suite-api\1.2.0\junit-platform-suite-api-1.2.0.jar;C:\Users\32484\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\32484\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\32484\.m2\repository\org\mockito\mockito-core\3.2.0\mockito-core-3.2.0.jar;C:\Users\32484\.m2\repository\net\bytebuddy\byte-buddy\1.10.3\byte-buddy-1.10.3.jar;C:\Users\32484\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.3\byte-buddy-agent-1.10.3.jar;C:\Users\32484\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\32484\.m2\repository\org\mockito\mockito-junit-jupiter\2.23.0\mockito-junit-jupiter-2.23.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\32484"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\32484\Desktop\ATLG4-2021-2022\a-benallal\Mentoring"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\32484\AppData\Local\Temp\surefire18379115216430299247\surefirebooter8020482041859376955.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="32484"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.4\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\32484\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\32484\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="C:\Users\32484\Desktop\ATLG4-2021-2022\a-benallal\Mentoring"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\32484\Desktop\Maven\apache-maven-3.8.4\bin;C:\Program Files (x86)\GnuWin32\bin;C:\MinGW\bin;C:\Users\32484\AppData\Local\Microsoft\WindowsApps;C:\Users\32484\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\32484\AppData\Roaming\Composer\vendor\bin;C:\Users\32484\AppData\Local\Android\Sdk\platform-tools;C:\Users\32484\Desktop\Maven\apache-maven-3.8.4\bin;C:\Program Files\Java\jdk-16.0.1;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="testDeleteExist" classname="g53203.mentoring.file.StudentDaoTest" time="0.036"/>
+  <testcase name="testDeleteNotExist" classname="g53203.mentoring.file.StudentDaoTest" time="0.003"/>
+  <testcase name="testSelectAllFileNotExist" classname="g53203.mentoring.file.StudentDaoTest" time="0"/>
+  <testcase name="testSelectWhenFileNotFound" classname="g53203.mentoring.file.StudentDaoTest" time="0.002"/>
+  <testcase name="testUpdateExist" classname="g53203.mentoring.file.StudentDaoTest" time="0.016"/>
+  <testcase name="testInsertIncorrectParam" classname="g53203.mentoring.file.StudentDaoTest" time="0.001"/>
+  <testcase name="testInsertExist" classname="g53203.mentoring.file.StudentDaoTest" time="0.012"/>
+  <testcase name="testSelectIncorrectParameter" classname="g53203.mentoring.file.StudentDaoTest" time="0.001"/>
+  <testcase name="testSelectExist" classname="g53203.mentoring.file.StudentDaoTest" time="0.01"/>
+  <testcase name="testDeleteIncorrectParam" classname="g53203.mentoring.file.StudentDaoTest" time="0.002"/>
+  <testcase name="testInserteFileNotFound" classname="g53203.mentoring.file.StudentDaoTest" time="0.001"/>
+  <testcase name="testUpdateNotExist" classname="g53203.mentoring.file.StudentDaoTest" time="0.001"/>
+  <testcase name="testSelectNotExist" classname="g53203.mentoring.file.StudentDaoTest" time="0.001"/>
+  <testcase name="testSelectAllExist" classname="g53203.mentoring.file.StudentDaoTest" time="0.001"/>
+  <testcase name="testDeleteFileNotFound" classname="g53203.mentoring.file.StudentDaoTest" time="0.001"/>
+  <testcase name="testUpdateFileNotFound" classname="g53203.mentoring.file.StudentDaoTest" time="0.001"/>
+</testsuite>

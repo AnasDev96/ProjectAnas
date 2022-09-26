@@ -1,0 +1,3 @@
+Membre du projet : 53203 - Anas Ben Allal 
+		   52902 - Juliens Jacobs
+Choix structure et model : MVC , QtCreator , subdirs
