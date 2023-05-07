@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mobg5_53203.screen.about.AboutFragment"
+    android:id="@+id/about">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="@color/tanAccent"
+        app:cardCornerRadius="@dimen/cornerRadius"
+        app:cardElevation="@dimen/cardElevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="697dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="166dp"
+                android:layout_height="157dp"
+                android:contentDescription="@string/wifi"
+                app:layout_constraintBottom_toTopOf="@+id/auth"
+                app:layout_constraintEnd_toStartOf="@+id/logoSchool"
+                app:layout_constraintHorizontal_bias="0.65"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.483"
+                app:srcCompat="@drawable/ic_baseline_wifi_24"
+                app:tint="@color/blue" />
+
+            <ImageView
+                android:id="@+id/logoSchool"
+                android:layout_width="181dp"
+                android:layout_height="173dp"
+                android:contentDescription="@string/He2b"
+                app:layout_constraintBottom_toTopOf="@+id/aboutText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.855"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.303"
+                app:srcCompat="@drawable/logo_esi" />
+
+            <TextView
+                android:id="@+id/aboutText"
+                android:layout_width="332dp"
+                android:layout_height="171dp"
+                android:text="@string/AboutText"
+                android:textColor="#0B0505"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/auth"
+                app:layout_constraintVertical_bias="0.776" />
+
+            <TextView
+                android:id="@+id/auth"
+                android:layout_width="248dp"
+                android:layout_height="64dp"
+                android:text="@string/auteur"
+                android:textColor="#0B0505"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/aboutText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/logoSchool"
+                app:layout_constraintVertical_bias="0.76" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
+</layout>

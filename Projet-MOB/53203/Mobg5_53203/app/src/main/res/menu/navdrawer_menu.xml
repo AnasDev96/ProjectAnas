@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/fragment_login"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="@string/login" />
+
+    <item
+        android:id="@+id/aboutFragment"
+        android:icon="@drawable/ic_baseline_question_mark_24"
+        android:title="@string/Aboutme" />
+    <item
+        android:id="@+id/map3"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="@string/map" />
+
+    <item
+        android:id="@+id/allWifi"
+        android:icon="@drawable/ic_baseline_wifi_24"
+        android:title="@string/allwifi" />
+
+    <item
+        android:id="@+id/favorisFragment"
+        android:icon="@drawable/ic_baseline_star_24"
+        android:title="@string/favoris" />
+
+</menu>
