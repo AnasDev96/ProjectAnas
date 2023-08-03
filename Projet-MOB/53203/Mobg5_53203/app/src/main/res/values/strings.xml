@@ -7,7 +7,7 @@
     <string name="Aboutme">About</string>
     <string name="He2b">He2b</string>
     <string name="AboutText">This project for the MOBG5 course is an application that gives you all the positions of the free wifi available in Brussels,and also gives you the wifi available around you.</string>
-    <string name="api_key">AIzaSyBjOG2fwFZQ0wb1cFiH7GpXX3GziTzGBmY</string>
+    <string name="api_key">""</string>
     <string name="map">Map</string>
     <string name="wifi">wifi</string>
     <string name="espaceNomWifi">NomWifi</string>
